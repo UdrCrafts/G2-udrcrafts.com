@@ -1,12 +1,3 @@
----
-
-````md
-# Multi-Tenant E-Commerce Platform
-
-A scalable multi-vendor e-commerce platform enabling vendors to create and manage their own storefronts, while customers browse, purchase, and track orders across the marketplace. The system is designed with modular backend services, secure authentication, vendor isolation, payment processing, media storage, and automated deployments.
-
----
-
 ## System Architecture
 
 ```mermaid
@@ -133,6 +124,3 @@ end
 | `develop`   | Integrated staging branch          |
 | `feature/*` | Work branches for individual tasks |
 
-
-
-And I will create **your full team task plan**.
