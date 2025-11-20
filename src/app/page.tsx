@@ -392,7 +392,7 @@ export default function Home() {
                   <img
                     src={product.images[0]}
                     alt={product.title}
-                    className="h-full w-full object-cover transition-transform duration-500 group-hover:scale-105 grayscale-[20%] group-hover:grayscale-0"
+                    className="h-full w-full object-cover transition-transform duration-500 group-hover:scale-105 grayscale-20 group-hover:grayscale-0"
                   />
                 </div>
                 <div className="p-4 space-y-2">
