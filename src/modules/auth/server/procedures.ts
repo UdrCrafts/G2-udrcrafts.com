@@ -11,6 +11,10 @@ export const authRouter = createTRPCRouter({
         const session = await ctx.db.auth({headers});
         return session; 
     }),
+    logout: baseProcedure.mutation(async () => {
+        const cookies = await getCookies();
+        cookies.delete(AUTH_COOKIE);
+    }),
     register : baseProcedure
     .input(
         z.object({
