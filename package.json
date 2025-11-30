@@ -1,0 +1,33 @@
+{
+  "name": "g2udrcrafts",
+  "version": "1.0.0",
+  "description": "it will contain cart order and checkout stripe",
+  "homepage": "https://github.com/UdrCrafts/G2-udrcrafts.com#readme",
+  "bugs": {
+    "url": "https://github.com/UdrCrafts/G2-udrcrafts.com/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/UdrCrafts/G2-udrcrafts.com.git"
+  },
+  "license": "ISC",
+  "author": "Aman",
+  "type": "module",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.3",
+    "express": "^5.1.0",
+    "morgan": "^1.10.1",
+    "pg": "^8.16.3",
+    "pg-hstore": "^2.3.4",
+    "sequelize": "^6.37.7"
+  },
+  "devDependencies": {
+    "sequelize-cli": "^6.6.3"
+  }
+}
