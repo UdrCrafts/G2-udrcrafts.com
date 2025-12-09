@@ -1,0 +1,8 @@
+{
+  "user": {
+    "_id": "u123",
+    "email": "user@example.com",
+    "role": "customer",
+    "tenantId": "v001"
+  }
+}
