@@ -64,5 +64,4 @@ logs/
 
 # Cache
 .cache/
-*.tmp
 *.temp
