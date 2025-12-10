@@ -1,3 +1,6 @@
 flask
-jsonify
+pandas
+numpy
+scikit-learn
+gunicorn
 requests
