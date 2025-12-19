@@ -66,3 +66,7 @@ logs/
 .cache/
 *.temp
 *.tmp
+node_modules/
+.env
+.next/
+dist/
